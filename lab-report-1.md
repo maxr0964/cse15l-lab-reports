@@ -1,1 +1,1 @@
-*Step 1: Installing VScode*
+**Step 1: Installing VScode**
