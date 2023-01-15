@@ -3,7 +3,7 @@
 * To install VSCode, visit this link: https://code.visualstudio.com/ and follow the install instructions for your OS.
 *Note: I didn't do this step during the lab, as I already had VSCode installed on my computer.*
 ![Image](https://github.com/maxr0964/cse15l-lab-reports/blob/8ce0f13db117c942d288430a8fd41efd2cf37cda/Vscode%20after%20install.png?raw=true)
-Vscode window after installation
+VSCode window after installation
 
 **Step 2: Remotely Connecting**
 * If you're using windows, this step requires you to install git. Follow the instructions at this link: https://gitforwindows.org/
