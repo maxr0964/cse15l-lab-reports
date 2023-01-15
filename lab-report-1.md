@@ -1,7 +1,6 @@
 # Lab Report 1
 **Step 1: Installing VScode**
 * To install VSCode, visit this link: https://code.visualstudio.com/ and follow the install instructions for your OS.
-
 *Note: I didn't do this step during the lab, as I already had VSCode installed on my computer.*
 ![Image](https://github.com/maxr0964/cse15l-lab-reports/blob/8ce0f13db117c942d288430a8fd41efd2cf37cda/Vscode%20after%20install.png?raw=true)
 Vscode window after installation
@@ -12,7 +11,6 @@ Vscode window after installation
 * Next, connect to the <code>ieng6</code> server by typing: <code>ssh cs15lwi23zz@ieng6.ucsd.edu</code> (zz should be replaced by the three letters of your course-specific account).
 * If it's your first time connecting to the server, type yes when prompted, and then enter your password when prompted.
 * Once you're logged in, you should see a message such as <code># Now on remote server</code>.
-
 *Note: I didn't install git during the lab, as I already had it on my computer.*
 ![Image](https://github.com/maxr0964/cse15l-lab-reports/blob/8ce0f13db117c942d288430a8fd41efd2cf37cda/connected%20with%20login.png?raw=true)
 Connecting to the server
