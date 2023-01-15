@@ -12,7 +12,7 @@ Vscode window after installation
 * If it's your first time connecting to the server, type yes when prompted, and then enter your password when prompted.
 * Once you're logged in, you should see a message such as <code># Now on remote server</code>. </br>
 *Note: I didn't install git during the lab, as I already had it on my computer.*
-![Image](https://github.com/maxr0964/cse15l-lab-reports/blob/4f46e76e8a55f6176b36bdaec03497850b29e0ed/connected%20with%20login.png)
+![Image](https://github.com/maxr0964/cse15l-lab-reports/blob/8ce0f13db117c942d288430a8fd41efd2cf37cda/connected%20with%20login.png?raw=true)
 Connecting to the server
 
 **Step 3: Running Some Commands**
