@@ -16,7 +16,7 @@ Vscode window after installation
 Connecting to the server
 
 **Step 3: Running Some Commands**
-* Now, try running some of these useful commands: <code>cd ~</code>, <code>ls -lat</code>, <code>ls -a</code>, <code>ls <directory></code>, <code>mkdir</code>
+* Now, try running some of these useful commands: <code>cd ~</code>, <code>ls -lat</code>, <code>ls -a</code>, <code>ls (directory)</code>, <code>mkdir</code>
 * To log out of the server, use Ctrl-D or use <code>exit</code>
 ![Image](https://github.com/maxr0964/cse15l-lab-reports/blob/4f46e76e8a55f6176b36bdaec03497850b29e0ed/ran%20some%20commands.png)
 Running some commands
