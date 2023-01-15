@@ -2,7 +2,7 @@
 **Step 1: Installing VScode**
 * To install VSCode, visit this link: https://code.visualstudio.com/ and follow the install instructions for your OS. </br>
 *Note: I didn't do this step during the lab, as I already had VSCode installed on my computer.*
-![Image](https://github.com/maxr0964/cse15l-lab-reports/blob/main/Vscode%20after%20install.png)
+![Image](https://github.com/maxr0964/cse15l-lab-reports/blob/8ce0f13db117c942d288430a8fd41efd2cf37cda/Vscode%20after%20install.png?raw=true)
 Vscode window after installation
 
 **Step 2: Remotely Connecting**
@@ -18,7 +18,7 @@ Connecting to the server
 **Step 3: Running Some Commands**
 * Now, try running some of these useful commands: <code>cd ~</code>, <code>ls -lat</code>, <code>ls -a</code>, <code>ls (directory)</code>, <code>mkdir</code>
 * To log out of the server, use Ctrl-D or use <code>exit</code>
-![Image](https://github.com/maxr0964/cse15l-lab-reports/blob/4f46e76e8a55f6176b36bdaec03497850b29e0ed/ran%20some%20commands.png)
+![Image](https://github.com/maxr0964/cse15l-lab-reports/blob/8ce0f13db117c942d288430a8fd41efd2cf37cda/ran%20some%20commands.png?raw=true)
 Running some commands
 
 
