@@ -59,4 +59,5 @@
 
 
 **Part 3: Reflection**
+
 One thing I learned from last week's lab was that the port number can be decided by the programmer. When I was an intern, I was primarily writing webcode, so I did a lot of testing using <code>localhost</code>. I thought the port number was always automatically generated, but it turns out the programmer can specify it. I also learned some strategies for designing tests in this week's lab. For example, for <code>averageWithoutLowest</code> it was important to test arrays that had no lowest value, such as <code>{1, 1, 1, 1}</code>.
