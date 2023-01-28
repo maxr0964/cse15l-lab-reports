@@ -26,9 +26,9 @@
 ```
   @Test
   public void testReversed() {
-    int[] input2 = {1, 2, 3, 4};
-    int[] input2reversed = {4, 3, 2, 1};
-    assertArrayEquals(input2reversed, ArrayExamples.reversed(input2));
+     int[] input2 = {1, 2, 3, 4};
+     int[] input2reversed = {4, 3, 2, 1};
+     assertArrayEquals(input2reversed, ArrayExamples.reversed(input2));
   }
   ```
   * Symptom as a result of running those tests:
