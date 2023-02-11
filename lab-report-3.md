@@ -117,7 +117,7 @@ written_2/travel_guides/berlitz2/CostaBlanca-WhatToDo.txt
 written_2/travel_guides/berlitz2/Crete-WhereToGo.txt
 written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
 ```
-* This could be useful if searching for files that contain one combination of patterns but not another (using the not operator, <code>^</code.
+* This could be useful if searching for files that contain one combination of patterns but not another (using the not operator, <code>^</code>.
 * Source: https://www.gnu.org/software/grep/manual/grep.html
  
 **Function 4: **
