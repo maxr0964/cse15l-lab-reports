@@ -29,7 +29,7 @@ https://www.man7.org/linux/man-pages/man1/xargs.1.html
 * While <code>-l</code> returns the names of the input files that would normally print output, <code>-L</code> returns the names of files that wouldn't have printed any output.
 * For example, searching for files without the word "they":
 ```
-grep -r _l "they" written_2"
+grep -r -l "they" written_2"
 ```
 * This produces the following result:
 ```
