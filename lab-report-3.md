@@ -21,9 +21,9 @@ find written_2 | grep -c ".txt"
 224
 ```
 * This is useful because it does the same thing we did in lab when counting the number of <code>.txt</code> files, but in fewer steps (without <code>wc</code>). 
-Sources: 
-https://www.gnu.org/software/grep/manual/grep.html
-https://www.man7.org/linux/man-pages/man1/xargs.1.html
+* Sources: 
+[grep](https://www.gnu.org/software/grep/manual/grep.html)
+[xargs](https://www.man7.org/linux/man-pages/man1/xargs.1.html)
 
 **Function 2 - Files Without Match**
 * While <code>-l</code> returns the names of the input files that would normally print output, <code>-L</code> returns the names of files that wouldn't have printed any output.
@@ -75,7 +75,7 @@ grep -r -L "time" written_2 | xargs wc -w
  7786 total
  ```
  * This use of grep could be useful if you're dealing with a large amount of very similar files, and you need to find files with some specific words missing.
-* Source: https://www.gnu.org/software/grep/manual/grep.html
+* Source: [grep](https://www.gnu.org/software/grep/manual/grep.html)
 
 **Function 3 - Extended Regular Expressions**
 * Using the <code>-E</code> flag with grep allows the use of parentheses to apply operators to groups of patterns.
@@ -118,7 +118,7 @@ written_2/travel_guides/berlitz2/Crete-WhereToGo.txt
 written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
 ```
 * This could be useful if searching for files that contain one combination of patterns but not another (using the not operator, <code>^</code>.
-* Source: https://www.gnu.org/software/grep/manual/grep.html
+* Source: [grep](https://www.gnu.org/software/grep/manual/grep.html)
  
 **Function 4: Only Matching**
 * Using the -o flag will print only the matching part of matched lines. 
@@ -144,8 +144,8 @@ written_2/travel_guides/berlitz2/Bahamas-History.txt:6:Bahamas
 written_2/travel_guides/berlitz2/Canada-WhereToGo.txt:343:Bahamas
 ```
 *Note: the output was really long so I cut most of it out.
-* This could be useful if you need the line numbers of a specific word, but dont want <code>grep</code> to print the entire line.
-* Source: https://www.gnu.org/software/grep/manual/grep.html
+* This could be useful if you need the line numbers of a specific word, but don't want <code>grep</code> to print the entire line.
+* Source: [grep](https://www.gnu.org/software/grep/manual/grep.html)
 
 
 
