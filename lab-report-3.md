@@ -25,7 +25,7 @@ Sources:
 https://www.gnu.org/software/grep/manual/grep.html
 https://www.man7.org/linux/man-pages/man1/xargs.1.html
 
-**Function 2 - Files Without Match
+**Function 2 - Files Without Match**
 * While <code>-l</code> returns the names of the input files that would normally print output, <code>-L</code> returns the names of files that wouldn't have printed any output.
 * For example, searching for files without the word "they":
 ```
@@ -77,7 +77,7 @@ grep -r -L "time" written_2 | xargs wc -w
  * This use of grep could be useful if you're dealing with a large amount of very similar files, and you need to find files with some specific words missing.
 * Source: https://www.gnu.org/software/grep/manual/grep.html
 
-**Function 3 - Extended Regular Expressions
+**Function 3 - Extended Regular Expressions**
 * Using the -E flag with grep allows the use of parentheses to apply operators to groups of patterns.
 * For example, searching for files that contain 'beach' and 'ocean' or 'ocean' and 'cliff'.
 ```
@@ -120,4 +120,4 @@ written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
 * This could be useful if searching for files that contain one combination of patterns but not another (using the not operator, <code>^</code.
 * Source: https://www.gnu.org/software/grep/manual/grep.html
  
-**Function 4: 
+**Function 4: **
