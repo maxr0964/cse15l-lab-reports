@@ -9,4 +9,12 @@ grep -r -l -Z "Lucayans" written_2 | xargs -r -0 grep -c "Lucayans"
 ```
 2
 ```
+* Another example is counting the number of <code>.txt</code> files in ./written_2:
+```
+find written_2 | grep -c ".txt"
+```
+* This produces the following result:
+```
+224
+```
 
