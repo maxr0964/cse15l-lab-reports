@@ -20,6 +20,7 @@ find written_2 | grep -c ".txt"
 ```
 224
 ```
+* This is useful because it does the same thing we did in lab when counting the number of <code>.txt</code> files, but in fewer steps (without <code>wc</code>). 
 Sources: 
 https://www.gnu.org/software/grep/manual/grep.html
 https://www.man7.org/linux/man-pages/man1/xargs.1.html
@@ -76,4 +77,47 @@ grep -r -L "time" written_2 | xargs wc -w
  * This use of grep could be useful if you're dealing with a large amount of very similar files, and you need to find files with some specific words missing.
 * Source: https://www.gnu.org/software/grep/manual/grep.html
 
-
+**Function 3 - Extended Regular Expressions
+* Using the -E flag with grep allows the use of parentheses to apply operators to groups of patterns.
+* For example, searching for files that contain 'beach' and 'ocean' or 'ocean' and 'cliff'.
+```
+grep -E -r -w -l '(beach.*ocean)|(ocean.*cliff)' written_2
+```
+* This produces the following result
+```
+written_2/travel_guides/berlitz2/Algarve-Intro.txt
+written_2/travel_guides/berlitz2/Algarve-WhereToGo.txt
+written_2/travel_guides/berlitz2/Bahamas-WhereToGo.txt
+written_2/travel_guides/berlitz2/California-WhereToGo.txt
+written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
+written_2/travel_guides/berlitz2/Cancun-WhatToDo.txt
+written_2/travel_guides/berlitz2/Cancun-WhereToGo.txt
+written_2/travel_guides/berlitz2/China-WhereToGo.txt
+written_2/travel_guides/berlitz2/Portugal-WhatToDo.txt
+written_2/travel_guides/berlitz2/Portugal-WhereToGo.txt
+written_2/travel_guides/berlitz2/Vallarta-WhatToDo.txt
+```
+* Another example, searching for "food" and "good" or "food" and "local"
+```
+grep -E -r -l -w '(beach.*ocean)|(ocean.*cliff)' written_2
+```
+* This produces the following result:
+```
+written_2/non-fiction/OUP/Castro/chA.txt
+written_2/non-fiction/OUP/Rybczynski/ch1.txt
+written_2/travel_guides/berlitz1/HandRIsrael.txt
+written_2/travel_guides/berlitz1/WhatToDublin.txt
+written_2/travel_guides/berlitz1/WhatToIbiza.txt
+written_2/travel_guides/berlitz1/WhereToFrance.txt
+written_2/travel_guides/berlitz2/Beijing-WhatToDo.txt
+written_2/travel_guides/berlitz2/Berlin-WhatToDo.txt
+written_2/travel_guides/berlitz2/Boston-WhereToGo.txt
+written_2/travel_guides/berlitz2/Canada-WhereToGo.txt
+written_2/travel_guides/berlitz2/CostaBlanca-WhatToDo.txt
+written_2/travel_guides/berlitz2/Crete-WhereToGo.txt
+written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
+```
+* This could be useful if searching for files that contain one combination of patterns but not another (using the not operator, <code>^</code.
+* Source: https://www.gnu.org/software/grep/manual/grep.html
+ 
+**Function 4: 
