@@ -1,7 +1,7 @@
 # Lab Report 3 - Researching Grep
 **Function 1 - Counting the Number of Matches**
 * To count the number of matches, use <code>grep -c</code>
-* For example, counting the number of matches for "Lucayans" in ./written_2:
+* For example, counting the number of matches for "Lucayans" in <code>./written_2</code>:
 ```
 grep -r -l -Z "Lucayans" written_2 | xargs -r -0 grep -c "Lucayans"
 ```
@@ -12,7 +12,7 @@ grep -r -l -Z "Lucayans" written_2 | xargs -r -0 grep -c "Lucayans"
 * This could be useful when there are multiple files that contain the target word, and the file with the most instances of that word is needed. 
 *Note: xargs is a command that converts input into argument for the next command. Using xargs passes the results of the first grep as the files to use for the second grep, and the -Z and -0 flags make sure that xargs doesn't use whitespace chars as delimiters in case filenames have spaces in them.*
 
-* Another example is counting the number of <code>.txt</code> files in ./written_2:
+* Another example is counting the number of <code>.txt</code> files in <code>./written_2</code>:
 ```
 find written_2 | grep -c ".txt"
 ```
@@ -78,7 +78,7 @@ grep -r -L "time" written_2 | xargs wc -w
 * Source: https://www.gnu.org/software/grep/manual/grep.html
 
 **Function 3 - Extended Regular Expressions**
-* Using the -E flag with grep allows the use of parentheses to apply operators to groups of patterns.
+* Using the <code>-E</code> flag with grep allows the use of parentheses to apply operators to groups of patterns.
 * For example, searching for files that contain 'beach' and 'ocean' or 'ocean' and 'cliff'.
 ```
 grep -E -r -w -l '(beach.*ocean)|(ocean.*cliff)' written_2
@@ -120,4 +120,32 @@ written_2/travel_guides/berlitz2/Nepal-WhatToDo.txt
 * This could be useful if searching for files that contain one combination of patterns but not another (using the not operator, <code>^</code>.
 * Source: https://www.gnu.org/software/grep/manual/grep.html
  
-**Function 4: **
+**Function 4: Only Matching**
+* Using the -o flag will print only the matching part of matched lines. 
+* For Example: searching for "Lucayans" in <code>./written_2</code>:
+```
+grep -r -l -Z "Lucayans" written_2 | xargs -r -0 grep -o -n  "Lucayans"
+```
+* This produces the following ouput:
+```
+6:Lucayans
+7:Lucayans
+```
+*Note: I also added <code>-n</code> flag to print the line numbers*
+* Another example: searching for "Bahamas"
+```
+grep -r -l -Z "Bahamas" written_2 | xargs -r -0 grep -o -n  "Bahamas"
+```
+* This Produces the following output:
+```
+written_2/travel_guides/berlitz1/WhatToFWI.txt:111:Bahamas
+written_2/travel_guides/berlitz2/Bahamas-History.txt:6:Bahamas
+#bunch of output in the same format that I removed
+written_2/travel_guides/berlitz2/Canada-WhereToGo.txt:343:Bahamas
+```
+*Note: the output was really long so I cut most of it out.
+* This could be useful if you need the line numbers of a specific word, but dont want <code>grep</code> to print the entire line.
+* Source: https://www.gnu.org/software/grep/manual/grep.html
+
+
+
