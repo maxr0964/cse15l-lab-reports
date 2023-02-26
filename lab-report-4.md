@@ -1,9 +1,10 @@
 # Lab Report 4 - Racing Task
 **Step 4: Logging in to IENG6**
+*Note: I'm not sure why the escape characters ('\') are showing up on the pages site, everything works properly on Github.
 * Screenshot:
 
 ![Image](https://raw.githubusercontent.com/maxr0964/cse15l-lab-reports/main/sshNoPassword.png)
-* To run the <code>ssh</code> command, I repeatedly hit <code>\\<up arrow\\></code> to get the command out of the terminal's history and then hit <code>\<enter\></code>. I did not have to enter a password for the ssh command because I set up an <code>ssh</code> key for my account on <code>ieng6</code>.
+* To run the <code>ssh</code> command, I repeatedly hit <code>\<up arrow\></code> to get the command out of the terminal's history and then hit <code>\<enter\></code>. I did not have to enter a password for the ssh command because I set up an <code>ssh</code> key for my account on <code>ieng6</code>.
   
 **Step 5: Cloning the repository**
 * Screenshot:
