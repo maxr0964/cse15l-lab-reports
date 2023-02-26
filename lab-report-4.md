@@ -21,5 +21,6 @@
 
 **Step 9: Commiting and pushing**
 * Screenshot:
-* I used <code>/<ctrl-R>/</code> to run all three <code>git</commands>. For adding, I just typed <code>a</code> after. For commiting the changes, I typed <code>c</code>, and for pushing, <code>p</code>.
+* I used <code>\<ctrl-R\></code> to run all three <code>git</code> commands. For adding, I just typed <code>a</code> after. For commiting the changes, I typed <code>c</code>, and for pushing, <code>p</code>.
+
 
