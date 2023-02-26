@@ -1,6 +1,7 @@
 # Lab Report 4 - Racing Task
 **Step 4: Logging in to IENG6**
-*Note: I'm not sure why the escape characters ('\') are showing up on the pages site, everything works properly on Github.
+
+*Note: I'm not sure why the escape characters ('\') are showing up on the pages site, everything works properly on Github.*
 * Screenshot:
 
 ![Image](https://raw.githubusercontent.com/maxr0964/cse15l-lab-reports/main/sshNoPassword.png)
