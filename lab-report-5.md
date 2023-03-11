@@ -1,5 +1,6 @@
 # Lab Report 5 - Racing Task Script
 **Script:**
+
 ![Image](https://raw.githubusercontent.com/maxr0964/cse15l-lab-reports/main/ScriptScreenshotReal.png)
 
 * To run the script on the remote server, I used the command <code>ssh cs15lwi23ajf@ieng6.ucsd.edu 'bash' < CLDQScript.sh</code>. Since I created a ssh key during lab 7, I don't need to input my password to use ssh. Putting <code>'bash'</code> runs <code>bash</code> on the remote server, and <code>< CLDQScript</code> means that <code>bash</code> reads the script from my local computer.
