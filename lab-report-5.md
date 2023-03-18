@@ -9,7 +9,7 @@
 * Line 3: clone the forked <code>lab7</code> repository from my Github account.
 * Line 4: <code>cd</code> into the cloned directory.
 * Lines 5/6: Compile all necessary files for the <code>JUnit</code> tests and then run the tests.
-* Line 7: Use the <code>sed</code> command to edit <code>ListExamples.java</code> automatically. The <code>-i</code> flag tells <code>said</code> to edit in place instead of creating a new file. <code>"43s/index1\ +=\ 1/index2\ +=\ 1/"</code> tells <code>sed</code> that it should replace <code>index1 += 1</code> on line 43 with <code>index2 += 1</code>.
+* Line 7: Use the <code>sed</code> command to edit <code>ListExamples.java</code> automatically. The <code>-i</code> flag tells <code>sed</code> to edit in place instead of creating a new file. <code>"43s/index1\ +=\ 1/index2\ +=\ 1/"</code> tells <code>sed</code> that it should replace <code>index1 += 1</code> on line 43 with <code>index2 += 1</code>.
 * Line 8: Display the contents of <code>ListExamples.java</code> to make sure that <code>sed</code> made the correct changes. I commented this line out after I knew that the command was making the correct changes.
 * Lines 9/10: Compile all necessary files for the <code>JUnit</code> tests and then run the tests.
   
